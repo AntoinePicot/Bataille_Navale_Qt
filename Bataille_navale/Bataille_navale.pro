@@ -3,8 +3,10 @@ QT += widgets
 SOURCES += \
     main.cpp \
     gamemenu.cpp \
-    game.cpp
+    gamesolo.cpp \
+    game2joueurs.cpp
 
 HEADERS += \
     gamemenu.h \
-    game.h
+    gamesolo.h \
+    game2joueurs.h

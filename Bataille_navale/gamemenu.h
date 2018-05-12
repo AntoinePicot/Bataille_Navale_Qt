@@ -18,6 +18,8 @@ class GameMenu : public QWidget
 
     public slots:
     void about();
+   // void jouerSolo();
+   // void jouer2Joueurs();
 
 
     private:
