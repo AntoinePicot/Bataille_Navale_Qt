@@ -9,6 +9,10 @@
 #include <QFile>
 #include <QtWidgets>
 #include <QTabWidget>
+#include <QObject>
+#include <QLabel>
+#include <QLineEdit>
+#include <QSpinBox>
 
 class GameSolo : public QWidget
 {
@@ -18,12 +22,16 @@ class GameSolo : public QWidget
     GameSolo();
 
     public slots:
-   // void about();
-
+    void buttonClicked();
+    void buttonClicked1();
+    void placement();
+    void afficher_bateaux(QPushButton Field[10][10]);
+    void afficher_tirs(QPushButton Field1[10][10]);
+    void essai(int j);
 
     private:
     QLabel *m_tirs;
-    QWidget *m_bateaux;
+    QLabel *m_bateaux;
 
 };
 
